@@ -14,4 +14,11 @@ class CompactDisc {
   public boolean withinBudget(int maxPrice){
     return (mPrice <= maxPrice);
   }
+  public boolean sameYear(int year) {
+    return (mYear == year);
+  }
+  public boolean sameArtist(String artist) {
+    return (mArtist.equals(artist));
+  }
+
 }
